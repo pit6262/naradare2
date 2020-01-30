@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Naradare - Доставка и оплата</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+
+
+<!-- BEGIN BODY -->
+<div class="main-wrapper">
+
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 d-flex align-items-center">
+						<ul class="header-nav">
+							<li class="header-nav__item dropdown">
+								<a href="#" class="header-nav__link dropdown-link">Москва</a>
+								<ul class="dropdown-menu">
+									<li class="is-active"><a href="#">Москва</a></li>
+									<li><a href="#">Москва</a></li>
+									<li><a href="#">Москва</a></li>
+								</ul>
+							</li>
+						</ul>
+						
+						<!-- <div class="social header__social hidden-lg">
+							<a href="#" class="social__link"><span class="icon-youtube"></span></a>
+							<a href="#" class="social__link"><span class="icon-fb"></span></a>
+							<a href="#" class="social__link"><span class="icon-instagram"></span></a>
+						</div> -->
+					</div>
+					<div class="col-6 header__top-right">
+						<ul class="header-nav ">
+							<li class="header-nav__item hidden-iphone">
+								<a href="#" class="header-nav__link">Доставка</a>
+							</li>
+							<li class="header-nav__item hidden-iphone">
+								<a href="#" class="header-nav__link">Возврат</a>
+							</li>
+							<li class="header-nav__item hidden-iphone">
+								<a href="#" class="header-nav__link">Добавить магазин</a>
+							</li>
+							<li class="header-nav__item hidden-iphone">
+								<a href="#" class="header-nav__link">Войти</a>
+							</li>
+						</ul>
+						<!-- <ul class="header-nav">
+							<li class="header-nav__item visible-iphone">
+								<a href="#" class="header-nav__link open-search"><span class="icon icon-search"></span> </a>
+							</li>
+							<li class="header-nav__item ">
+								<a href="#" class="header-nav__link">
+									<span class="icon icon-user1"></span>
+									<span class="header-nav__text">Вход</span>
+								</a>
+							</li>
+							<li class="header-nav__item ">
+								<a href="#" class="header-nav__link is-badge">
+									<span class="icon icon-heart"></span>
+									<span class="header-nav__text">Избранное</span>
+								</a>
+							</li>
+							<li class="header-nav__item ">
+								<a href="#" class="header-nav__link is-badge">
+									<span class="icon icon-shuffle"></span>
+									<span class="header-nav__text">Cравнение</span>
+								</a>
+							</li>
+	
+						</ul> -->
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	
+		<div class="header__bottom">
+			<div class="container">
+				<div class="header__bottom-wrap">
+					<div class="logo ">
+						<a href="#"><img src="img/Naradare.svg" alt=""></a>
+					</div>
+	
+					<a href="#" class="catalog-menu toggle-menu">
+						<div class="burger">
+							<div class="burger__icon"></div>
+						</div>
+						Каталог
+					</a>
+	
+					<div class="search ">
+						<form action="#" class="search-form">
+							<input type="text" placeholder="Поиск..." class="search-form__input">
+							<button type="submit" class="search-form__button "><span class="icon-search"></span></button>
+						</form>
+					</div>
+					
+					<div class="basket">
+						
+						<a href="#" class="basket__link is-badge">
+							<span class="icon icon-heart"></span>
+						</a>
+					
+						<a href="#" class="basket__link is-badge">
+							<span class="icon icon-shuffle"></span>
+						</a>
+						
+						<a href="#" class="basket__wrapper">
+							<span class="basket__icon">
+								<span class="icon icon-cart"></span>
+								<span class="badge">22</span>
+							</span>
+							<span class="basket__price">0.00 <span class="rub">a</span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="n-navbar hidden-lg">
+			<div class="container">
+				<ul class="n-navbar-menu">
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Ламинат</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Плитка</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Обои</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Потолочные системы</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Стройматериалы</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Двери</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Паркет</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Люстры</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Сайдинг</a></li>
+					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Металлочерепица</a></li>
+					<li class="n-navbar-menu__item n-navbar-menu__item--danger"><a href="#" class="n-navbar-menu__link">Распродажа%</a></li>
+					
+					
+					
+				</ul>
+			</div>
+		</nav>
+		<nav class="navbar" >
+			<div class="container">
+				<span class="navbar__close"><span class="icon icon-close"></span> Закрыть</span>
+				<ul class="navbar-menu">
+					<li class="is-dropdown">
+						<a href="#">Напольные покрытия</a>
+						<div class="navbar-menu-dropdown navbar-menu-lvl-2">
+							<ul>
+								<li>
+									<a href="#">Ламинат</a>
+								</li>
+								<li class="is-dropdown">
+									<a href="#">Паркет</a>
+									<div class="navbar-menu-dropdown navbar-menu-lvl-3">
+										<ul>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+											<li>
+												<a href="#">Паркет ёлочка</a>
+											</li>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+											<li>
+												<a href="#">Паркет ёлочка</a>
+											</li>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+											<li>
+												<a href="#">Паркет ёлочка</a>
+											</li>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+											<li>
+												<a href="#">Паркет ёлочка</a>
+											</li>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+											<li>
+												<a href="#">Паркет ёлочка</a>
+											</li>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+	
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li  class="is-dropdown">
+						<a href="#">Обои</a>
+						<div class="navbar-menu-dropdown navbar-menu-lvl-2">
+							<ul>
+								
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="is-dropdown">
+						<a href="#">Двери</a>
+						<div class="navbar-menu-dropdown navbar-menu-lvl-2">
+							<ul>
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+								<li>
+									<a href="#">Ламинат</a>
+								</li>
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+								<li>
+									<a href="#">Ламинат</a>
+								</li>
+								<li class="is-dropdown">
+									<a href="#">Паркет</a>
+									<div class="navbar-menu-dropdown navbar-menu-lvl-3">
+										<ul>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+	
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="is-dropdown">
+						<a href="#">Плитка</a>
+						<div class="navbar-menu-dropdown navbar-menu-lvl-2">
+							<ul>
+								
+								<li class="is-dropdown">
+									<a href="#">Паркет</a>
+									<div class="navbar-menu-dropdown navbar-menu-lvl-3">
+										<ul>
+											<li>
+												<a href="#">Паркетная доска</a>
+											</li>
+											<li>
+												<a href="#">Художественный паркет</a>
+											</li>
+	
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Линолеум</a>
+								</li>
+								<li>
+									<a href="#">Ламинат</a>
+								</li>
+								<li>
+									<a href="#">Ламинат</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- HEADER EOF   -->
+
+	<!-- BEGIN MAIN -->
+	<main class="main">
+		<div class="container">
+			<ul class="bread-crambs">
+				
+				<li class="bread-crambs__item">
+					<a href="#" class="bread-crambs__link">Главная</a>
+				</li>
+				<li class="bread-crambs__item">Корзина</li>
+			</ul>
+
+			<h1>Корзина</h1>
+
+			<div class="wrap">
+				<div class="step-list">
+					<div class="step-list__item is-selected"><span>Шаг 1: Оформление заказа</span></div>
+					<div class="step-list__item is-selected"><span>Шаг 2: Выбор способа доставки и оплаты</span></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-5 col-lg-6">
+						<form action="#">
+							<div class="inner-box">
+								<h5 class="size-xll">Личные данные</h5>
+								<div class="form-field">
+									<input type="text" class="form-input" placeholder="Имя">
+								</div>
+								<div class="form-field ">
+									<label class="error-text">Это поле необходимо заполнить</label>
+									<input type="tel" class="form-input error" placeholder="Телефон">
+								</div>
+								<div class="form-field ">
+									<input type="email" class="form-input valid" placeholder="E-mail">
+								</div>
+							</div>
+							<div class="inner-box">
+								<h5>Доставка</h5>
+								<div class="row form-field">
+									<div class="col-xl-4">
+										<label>Способ доставки <span class="l-star">*</span></label>
+									</div>
+									<div class="col-xl-8">
+										<label class="radio radio--block">
+											<input type="radio" name="delivery" checked="">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Самовывоз со склада в Москве</span>
+										</label>
+										<label class="radio radio--block">
+											<input type="radio" name="delivery">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Доставка в Москве в пределах МКАД</span>
+										</label>
+										<label class="radio radio--block">
+											<input type="radio" name="delivery">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Доставка в Москве за пределы МКАД</span>
+										</label>
+									</div>
+								</div>
+								<div class="form-field">
+									<label>Адрес доставки <span class="l-star">*</span></label>
+									<textarea class="form-input form-input--sm"></textarea>
+								</div>
+							</div>
+							<div class="inner-box">
+								<h5>Оплата</h5>
+								<div class="row form-field">
+									<div class="col-xl-4">
+										<label>Плательщик <span class="l-star">*</span></label>
+									</div>
+									<div class="col-xl-8">
+										<label class="radio radio--block">
+											<input type="radio" name="payment" checked="">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Физическое лицо</span>
+										</label>
+										<label class="radio radio--block">
+											<input type="radio" name="payment">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Юридическое лицо</span>
+										</label>
+										
+									</div>
+								</div>
+								<div class="row form-field">
+									<div class="col-xl-4">
+										<label>Способ оплаты <span class="l-star">*</span></label>
+									</div>
+									<div class="col-xl-8">
+										<label class="radio radio--block">
+											<input type="radio" name="paument2" checked="">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Наличными</span>
+										</label>
+										<label class="radio radio--block">
+											<input type="radio" name="paument2">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Картой</span>
+										</label>
+										<label class="radio radio--block">
+											<input type="radio" name="paument2">
+											<span class="radio__figure"></span>
+											<span class="radio__text">Безналичный</span>
+										</label>
+										
+									</div>
+								</div>
+								<div class="form-field">
+									<label>Комментарии к заказу <span class="l-star">*</span></label>
+									<textarea class="form-input form-input--sm"></textarea>
+								</div>
+							</div>
+							<div class="inner-box">
+								<h5>Данные для кешбэк:</h5>
+								<p class="size-lg">Сумма кешбэк: <sapn class="font-600">1 320</sapn> <span class="rub">a</span></p>
+								<p>Укажите карту любого российского банка.</p>
+
+								<p>Для держателей карт Сбербанка комиссия за перевод не взимается. Для держателей карт других банков взимается комиссия согласно тарифам Сбербанка.</p>
+								<div class="form-field">
+									<input type="text" class="form-input" placeholder="Номер карты">
+								</div>
+								<div class="form-field ">
+									<input type="text" class="form-input" placeholder="ФИО держателя карты">
+								</div>
+								<p>Перевод денежных средств осуществляется в течении 14 календарных дней.</p>
+							</div>
+							<div class="inner-box">
+								<h5>Информация о покупке</h5>
+								<p class="size-lg mb5">В корзине  <sapn class="font-600">2</sapn> товара: </p>
+								<div class="b-del">
+									<span>Вес: 58,65 кг</span>
+									<span>Объем: 0,281 м3</span>
+									<span>Длина: 1,38 м</span>
+								</div>
+
+								<p class="size-lg mb5">Стоимость доставки: <sapn class="font-600">1 400</sapn> <span class="rub">a</span></p>
+								<p class="size-lg">Стоимость товаров: <sapn class="font-600">12 400</sapn> <span class="rub">a</span></p>
+								<p class="b-total">Итого: <span class="b-total__price">13 800<span class="rub">a</span></span></p>
+
+								<input type="submit" value="Оформить заказ" class="btn btn--lg btn--block">
+							</div>
+						</form>
+					</div>
+					<div class="col-xl-5 offset-xl-2 col-lg-6">
+						<div class="block tab-wrap">
+							<h5 class="size-xll">Вход в личный кабинет</h5>
+							<ul class="login-nav tabs">
+								<li class="is-active"><a href="#lg_1">Авторизация</a></li>
+								<li><a href="#lg_2">Регистрация</a></li>
+							</ul>
+							<div class="box-cont">
+								<div class="tab-cont" id="lg_1">
+									<form action="#">
+										<div class="form-field ">
+											<input type="email" class="form-input" placeholder="E-mail">
+										</div>
+										<div class="form-field ">
+											<input type="password" class="form-input" placeholder="Пароль">
+										</div>
+										<div class="f-text-right"><input type="submit" class="btn btn--default" value="Войти"></div>
+									</form>
+								</div>
+								<div class="tab-cont is-hidden" id="lg_2">
+									<form action="#">
+										<div class="form-field ">
+											<input type="email" class="form-input" placeholder="E-mail">
+										</div>
+										<div class="form-field ">
+											<input type="password" class="form-input" placeholder="Пароль">
+										</div>
+										<div class="form-field ">
+											<input type="password" class="form-input" placeholder="Повторите пароль">
+										</div>
+										<div class="f-text-right"><input type="submit" class="btn btn--default" value="Зарегистрироваться"></div>
+									</form>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- MAIN EOF   -->
+
+	<!-- BEGIN FOOTER -->
+	
+	<div class="popup-wrapper">
+		<div class="popup-bg"></div>
+		<div class="popup-content popup-card" data-popup="card-view">
+			<div class="popup-container">
+				<div class="row">
+					<div class="col-6 popup-card__item">
+						<div class="popup-card__slider">
+							<div class="popup-card-slider">
+								<div class="popup-card-slider__item">
+									<img src="img/img2.jpg" alt="">
+								</div>
+								<div class="popup-card-slider__item">
+									<img src="img/img1.jpg" alt="">
+								</div>
+								<div class="popup-card-slider__item">
+									<img src="img/img3.jpg" alt="">
+								</div>
+								<div class="popup-card-slider__item">
+									<img src="img/img4.jpg" alt="">
+								</div>
+							</div>
+							<div class="popup-card-slider-nav"></div>
+							<div class="popup-card-button">
+								<a href="#" class="btn btn--block btn--lg">Детальная информация</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 popup-card__item">
+						<div class="popup-card__info">
+							<a href="#" class="cs-logo pc-fixed"><img src="img/Naradare_mini.svg" alt=""></a>
+							<div class="description mb20">
+								<span>Категория: <a href="#">Ламинат</a></span>
+							</div>
+							<h3 class="mb15">Дуб Пирей</h3>
+							<div class="results mb10">  
+								<span class="results-tag ">Найден в <strong>136</strong> магазинах</span>
+								<a href="#" class="link">Показать магазины на карте</a>
+							</div> 
+							<div class="card-info mt0">
+								<div class="card-info__title">Цена от:</div>
+								<div class="card-info__row">
+									<span class="card-info__price">1 255 <span class="rub">a</span>/м<sup>2</sup></span>
+									<span class="chashback is-active">+ Кешбэк 12%</span>
+									<a href="#" class="link">Нашли дешевле?</a>
+								</div>
+								<p class="card-info__text">6 086 <span class="rub">a</span>/упак., 4,85 м<sup>2</sup> в упаковке.</p>
+								<div class="card__counter mt15">
+									<div class="counter">
+										<button type="button" class="counter__btn counter__btn--minus"></button>
+										<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+										<button type="button" class="counter__btn counter__btn--plus"></button>
+									</div>
+									<p><span class="font-600">4</span> упак. на <span class="font-600 nowrap">8 052 <span class="rub">a</span></span></p>
+								</div>
+	
+								<div class="card__buttons">
+									<a href="#" class="btn">Добавить в корзину</a>
+									<div class="card__nav-button">
+										<a href="#" class="btn btn--default"><span class="icon icon-heart"></span></a>
+										<a href="#" class="btn btn--default"><span class="icon icon-shuffle"></span></a>
+									</div>
+								</div>
+	
+	
+								<div class="informer informer--gray">Для уточнения наличия, добавьте товары в корзину, перейдите в неё и нажмите кнопку "узнать наличие".</div>
+	
+								<div class="description mb15 size-lg">
+									<span>Код товара: <span class="font-500">A8745</span></span>
+									<span>Производитель: <a href="#">Tarkett</a></span>
+									<span>Коллекция: <a href="#">Kalifornia</a></span>
+								</div>
+								<h5 class="mb5">Основные характеристики:</h5>
+								<div class="description ">
+									<span>Страна: Германия</span>
+									<span>Класс: 33</span>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+				
+				<a href="#" class="popup-close"><span class="icon-close"></span></a>
+			</div>
+			
+		</div>
+		
+	</div>
+	<!-- FOOTER EOF   -->
+		
+	<!-- BEGIN FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-wrap">
+				<div class="footer-wrap__item first">
+					<p class="mb5">2020 «Naradare.ru»</p>
+					<p class="mb0">Пользовательское соглашение</p>
+				</div>
+				<div class="footer-wrap__item">
+					<ul class="footer-nav">
+						<li class="footer-nav__item">
+							<a href="#" class="footer-nav__link">Контакты</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" class="footer-nav__link">Обратная связь</a>
+						</li>
+					</ul>
+				</div>
+	
+				<div class="footer-wrap__item">
+					<ul class="footer-nav">
+						<li class="footer-nav__item">
+							<a href="#" class="footer-nav__link">Условия доставки</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" class="footer-nav__link">О проекте</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-wrap__item">
+					<ul class="footer-nav">
+						<li class="footer-nav__item">
+							<a href="#" class="footer-nav__link">Добавить магазин</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER EOF   -->
+
+</div>
+<!-- BODY EOF   -->
+<div class="overlay"></div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+
+<script async src="https://api-maps.yandex.ru/2.1/?load=package.standard&lang=ru_RU&onload=getYaMap"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
