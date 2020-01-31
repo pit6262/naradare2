@@ -21,7 +21,7 @@
 		<div class="header__top">
 			<div class="container">
 				<div class="row">
-					<div class="col-6 d-flex align-items-center">
+					<div class="col-lg-6 col-4 d-flex align-items-center">
 						<ul class="header-nav">
 							<li class="header-nav__item dropdown">
 								<a href="#" class="header-nav__link dropdown-link">Москва</a>
@@ -32,30 +32,24 @@
 								</ul>
 							</li>
 						</ul>
-						
-						<!-- <div class="social header__social hidden-lg">
-							<a href="#" class="social__link"><span class="icon-youtube"></span></a>
-							<a href="#" class="social__link"><span class="icon-fb"></span></a>
-							<a href="#" class="social__link"><span class="icon-instagram"></span></a>
-						</div> -->
 					</div>
-					<div class="col-6 header__top-right">
-						<ul class="header-nav ">
-							<li class="header-nav__item hidden-iphone">
+					<div class="col-lg-6 col-8 header__top-right">
+						<ul class="header-nav hidden-sm">
+							<li class="header-nav__item">
 								<a href="#" class="header-nav__link">Доставка</a>
 							</li>
-							<li class="header-nav__item hidden-iphone">
+							<li class="header-nav__item">
 								<a href="#" class="header-nav__link">Возврат</a>
 							</li>
-							<li class="header-nav__item hidden-iphone">
+							<li class="header-nav__item">
 								<a href="#" class="header-nav__link">Добавить магазин</a>
 							</li>
-							<li class="header-nav__item hidden-iphone">
+							<li class="header-nav__item">
 								<a href="#" class="header-nav__link">Войти</a>
 							</li>
 						</ul>
-						<!-- <ul class="header-nav">
-							<li class="header-nav__item visible-iphone">
+						<ul class="header-nav visible-sm">
+							<li class="header-nav__item">
 								<a href="#" class="header-nav__link open-search"><span class="icon icon-search"></span> </a>
 							</li>
 							<li class="header-nav__item ">
@@ -77,7 +71,7 @@
 								</a>
 							</li>
 	
-						</ul> -->
+						</ul>
 					</div>
 				</div>
 	
@@ -95,7 +89,7 @@
 						<div class="burger">
 							<div class="burger__icon"></div>
 						</div>
-						Каталог
+						<span class="hidden-md">Каталог</span>
 					</a>
 	
 					<div class="search ">
@@ -107,11 +101,11 @@
 					
 					<div class="basket">
 						
-						<a href="#" class="basket__link is-badge">
+						<a href="#" class="basket__link is-badge hidden-sm">
 							<span class="icon icon-heart"></span>
 						</a>
 					
-						<a href="#" class="basket__link is-badge">
+						<a href="#" class="basket__link is-badge hidden-sm">
 							<span class="icon icon-shuffle"></span>
 						</a>
 						
@@ -126,7 +120,7 @@
 				</div>
 			</div>
 		</div>
-		<nav class="n-navbar hidden-lg">
+		<nav class="n-navbar hidden-md">
 			<div class="container">
 				<ul class="n-navbar-menu">
 					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Ламинат</a></li>
@@ -136,9 +130,9 @@
 					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Стройматериалы</a></li>
 					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Двери</a></li>
 					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Паркет</a></li>
-					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Люстры</a></li>
-					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Сайдинг</a></li>
-					<li class="n-navbar-menu__item"><a href="#" class="n-navbar-menu__link">Металлочерепица</a></li>
+					<li class="n-navbar-menu__item "><a href="#" class="n-navbar-menu__link">Люстры</a></li>
+					<li class="n-navbar-menu__item hidden-xl"><a href="#" class="n-navbar-menu__link">Сайдинг</a></li>
+					<li class="n-navbar-menu__item hidden-xl"><a href="#" class="n-navbar-menu__link">Металлочерепица</a></li>
 					<li class="n-navbar-menu__item n-navbar-menu__item--danger"><a href="#" class="n-navbar-menu__link">Распродажа%</a></li>
 					
 					
@@ -307,7 +301,7 @@
 	<main class="main">
 		<div class="container">
 			<ul class="bread-crambs">
-				<li class="bread-crambs__item bc-all visible-iphone">
+				<li class="bread-crambs__item bc-all visible-sm">
 					<a href="#" class="bread-crambs__link">Все</a>
 				</li>	
 				<li class="bread-crambs__item">
@@ -336,7 +330,7 @@
 								<a href="#" class="btn btn--purpule btn--sm">Показать 35 товаров</a>
 							</div>
 						</div>
-						<div class="filter__head visible-lg">
+						<div class="filter__head visible-md">
 							<div class="filter__close close-filter" ><span class="icon icon-close"></span> Закрыть</div>
 						</div>
 
@@ -425,8 +419,8 @@
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">2-х сторонняя</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">2-х сторонняя <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -434,16 +428,16 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">4-х сторонняя</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">4-х сторонняя <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="fxm">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">Без фаски</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">Без фаски <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 									</ul>
@@ -460,8 +454,8 @@
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -469,24 +463,24 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="fxm">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -494,24 +488,24 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -519,24 +513,24 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -544,24 +538,24 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox" checked="">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -569,16 +563,16 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="i-hidden">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 									</ul>
@@ -601,8 +595,8 @@
 												<span class="checkbox__text">
 													<span class="color" style="background-color: #fff;"></span>
 													Белый
-												</span>
-												<span class="kbd-count">(135)</span>
+												 <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -613,8 +607,8 @@
 												<span class="checkbox__text">
 													<span class="color" style="background-color: #a2a2a2;"></span>
 													Серый
-												</span>
-												<span class="kbd-count">(5)</span>
+												 <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="fxm">
@@ -624,8 +618,8 @@
 												<span class="checkbox__text">
 													<span class="color" style="background-color: #501500;"></span>
 													Коричневый
-												</span>
-												<span class="kbd-count">(12)</span>
+												 <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 
@@ -643,8 +637,8 @@
 											<label class="checkbox">
 												<input type="checkbox" >
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -652,16 +646,16 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="fxm">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 									</ul>
@@ -678,8 +672,8 @@
 											<label class="checkbox">
 												<input type="checkbox" >
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">6 мм</span>
-												<span class="kbd-count">(135)</span>
+												<span class="checkbox__text">6 мм <span class="kbd-count">(135)</span></span>
+												
 											</label>
 											
 										</li>
@@ -687,16 +681,16 @@
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">8 мм</span>
-												<span class="kbd-count">(5)</span>
+												<span class="checkbox__text">8 мм <span class="kbd-count">(5)</span></span>
+												
 											</label>
 										</li>
 										<li class="fxm">
 											<label class="checkbox">
 												<input type="checkbox">
 												<span class="checkbox__figure"></span>
-												<span class="checkbox__text">9 мм</span>
-												<span class="kbd-count">(12)</span>
+												<span class="checkbox__text">9 мм <span class="kbd-count">(12)</span></span>
+												
 											</label>
 										</li>
 									</ul>
@@ -740,7 +734,7 @@
 					
 				</div>
 				<div class="content">
-					<div class="banner b-box hidden-iphone" >
+					<div class="banner b-box hidden-sm" >
 						<div class="banner__title">Сервис поиска лучших цен на товары для ремонта</div>
 						<ul class="banner__list">
 							<li>Более 5000 товаров</li>
@@ -758,13 +752,13 @@
 						</div> 
 					</div>
 
-					<div class="content-button visible-lg">
+					<div class="content-button visible-md">
 						<a href="#" class="btn btn--default open-filter">Показать фильтры</a>
 					</div>
 					
 					<div class="sorting">
 						<div class="sorting__item">
-							<div class="sorting__title hidden-lg">Сортировать:</div>
+							<div class="sorting__title hidden-x">Сортировать:</div>
 							<div class="sorting__body">
 								<a href="#" class="sorting__link is-active">по популярности</a>
 								<a href="#" class="sorting__link">по цене</a>
@@ -786,10 +780,11 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="b-box">
 						<div class="products-grid ">
 							<div class="row no-gutters">
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											<div class="sticker sticker--hit">Хит</div>
@@ -817,27 +812,29 @@
 												<div class="product-inner__price">
 													<span class="price"><span class="cdef">от</span> 
 													<span class="big">930</span> /м<sup>2</sup></span>
-													<span class="chashback chashback--sm">+ кешбэк</span>
+													
 												</div>
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											<div class="sticker sticker--hit">Хит</div>
@@ -870,22 +867,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											<div class="sticker sticker--new">Новинка</div>
@@ -933,7 +932,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -966,23 +965,25 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1015,22 +1016,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1063,22 +1066,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1111,22 +1116,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1159,22 +1166,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1207,22 +1216,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1255,22 +1266,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1303,22 +1316,24 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-xxl-3 col-md-4 col-md-4 col-6 products-grid__item">
+								<div class="col-xl-3 col-x-4 col-lg-6 col-md-4 col-6 products-grid__item">
 									<div class="product-inner">
 										<div class="product-inner__top">
 											
@@ -1351,17 +1366,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -1569,7 +1586,7 @@
 							<a href="#" class="btn btn--block btn--default2">Показать ещё</a>
 						</div>
 
-						<div class="content-fot-wrap hidden-iphone">
+						<div class="content-fot-wrap hidden-sm">
 							
 							<ul class="paging-list">
 								<li class="paging-list__item paging-prev">
@@ -1604,117 +1621,29 @@
 				</div>
 				
 			</div>
-
-			<!-- <div class="last-view hidden-lg">
-				<h3>Последние просмотренные товары (div)</h3>
-				<div class="row ">
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-2 col-lg-3 col-md-4">
-						<div class="product-inner">
-							
-							<div class="product-inner__img">
-								<a href="#"><img src="img/img4.jpg" alt=""></a>
-								<a href="#" class="fast-view open-popup" data-popup="card-view"><span class="icon icon-eye"></span> Быстрый просмотр</a>
-								<div class="like"><span class="icon-heart"></span></div>
-							</div>
-							<div class="product-inner__body">
-								<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей </a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-		
-
-			<div class="tab-wrap" >
+			<div class="tab-wrap mb40" >
 				<ul class="nav-tab-list tabs">
 					
 					<li class="nav-tab-list__item is-active">
-						<a href="#tabs_1" class="nav-tab-list__link"><span class="hidden-iphone">Магазины на карте</span><span class="visible-iphone">Магазины</span></a>
+						<a href="#tabs_1" class="nav-tab-list__link"><span class="hidden-sm">Магазины на карте</span><span class="visible-sm">Магазины</span></a>
 					</li>
 					<li class="nav-tab-list__item">
-						<a href="#tabs_2" class="nav-tab-list__link"><span class="hidden-iphone">Популярные коллекции</span><span class="visible-iphone">Топ коллекции</span></a>
+						<a href="#tabs_2" class="nav-tab-list__link"><span class="hidden-sm">Популярные коллекции</span><span class="visible-sm">Коллекции</span></a>
 					</li>
 					<li class="nav-tab-list__item">
-						<a href="#tabs_3" class="nav-tab-list__link"><span class="hidden-iphone">Отзывы (3)</span><span class="visible-iphone"><span class="icon-heart"></span></span></a>
+						<a href="#tabs_3" class="nav-tab-list__link">Отзывы (3)</a>
 					</li>
-					<li class="nav-tab-list__item">
-						<a href="#tabs_4" class="nav-tab-list__link"><span class="hidden-iphone">Недавно смотрели (0)</span><span class="visible-iphone"><span class="icon-heart"></span></span></a>
+					<li class="nav-tab-list__item hidden-sm">
+						<a href="#tabs_4" class="nav-tab-list__link">Недавно смотрели (0)</a>
 					</li>
 				</ul>
-			
-			
-			
+
 				<div class="box-tab ">
 				
 					<div class="tab-cont " id="tabs_1">
-						<div class="b-box b-box--lg">
-							<p >В базе содержится <strong>230</strong> магазинов Москвы и области в которых можно купить ламинат. <br>
-							Поиск доступен по <strong>24</strong> поизводителям ламината. Найдено <strong>48</strong> магазинов продающих ламинат Tarkett.</p>
+						<div class="b-box b-box--lg tabs-stext">
+							<p >В базе содержится <strong>230</strong> магазинов Москвы и области в которых можно купить ламинат. </p>
+							<p>Поиск доступен по <strong>24</strong> поизводителям ламината. Найдено <strong>48</strong> магазинов продающих ламинат Tarkett.</p>
 
 							<div class="select-filter">
 								<div class="select-filter__title">Выбранные параметры:</div>
@@ -2054,7 +1983,7 @@
 									</div>
 								</div>
 								<div class="map-size">
-									<span class="icon icon-heart"></span></span> Увеличить
+									<span class="icon icon-heart"></span> <span class="hidden-sm">Увеличить</span>
 								</div>
 								<div id="map">
 										
@@ -2064,7 +1993,7 @@
 								<div class="get-block__link"><a href="#">Информация для владельцев размещенных магазинов</a></div>
 								<div class="get-block__button">
 									<a href="#" class="btn">Добавить магазин</a>
-									<a href="#" class="btn btn--default">Нашли ошибку?</a>
+									<a href="#" class="btn btn--default hidden-sm">Нашли ошибку?</a>
 								</div>
 							</div>
 						</div>
@@ -2079,9 +2008,10 @@
 							<div class="collection-wrap">
 								<div class="collection-wrap__item">
 									<div class="collection-wrap__content">
+										
 										<div class="products">
 											<div class="row no-gutters">
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2114,22 +2044,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2162,22 +2094,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2210,22 +2144,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2258,23 +2194,26 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="material-list">
 											<div class="material-list__item"><img src="img/material.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material2.jpg" alt=""></div>
@@ -2291,7 +2230,7 @@
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 										</div>
-										<a href="#" class="btn btn--purpule btn--block btn--sm visible-iphone mt20">Перейти в коллекцию</a>
+										<a href="#" class="btn btn--purpule btn--block btn--sm visible-sm mt20">Перейти в коллекцию</a>
 									</div>
 									<div class="collection-wrap__sidebar">
 										<div class="collection-info collection-info--gray">
@@ -2310,14 +2249,15 @@
 											<p><strong>Характеристики ламината Tarkett в коллекции <a href="#">Kalifornia:</a></strong> 33 класс, толщина 9 мм, влагостойкий, 30x80 см, фаска 4-х сторонняя, без фаски, толщина 9 мм, влагостойкий</p>
 										</div>
 
-										<a href="#" class="btn btn--block btn--sm hidden-iphone">Показать еще 12 расцветок</a>
+										<a href="#" class="btn btn--block btn--sm hidden-sm">Показать еще 12 расцветок</a>
 									</div>
 								</div>
 								<div class="collection-wrap__item">
 									<div class="collection-wrap__content">
+										
 										<div class="products">
 											<div class="row no-gutters">
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2350,22 +2290,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2398,22 +2340,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2446,22 +2390,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2494,23 +2440,26 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="material-list">
 											<div class="material-list__item"><img src="img/material.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material2.jpg" alt=""></div>
@@ -2527,7 +2476,7 @@
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 										</div>
-										<a href="#" class="btn btn--purpule btn--block btn--sm visible-iphone mt20">Перейти в коллекцию</a>
+										<a href="#" class="btn btn--purpule btn--block btn--sm visible-sm mt20">Перейти в коллекцию</a>
 									</div>
 									<div class="collection-wrap__sidebar">
 										<div class="collection-info collection-info--gray">
@@ -2546,14 +2495,15 @@
 											<p><strong>Характеристики ламината Tarkett в коллекции <a href="#">Kalifornia:</a></strong> 33 класс, толщина 9 мм, влагостойкий, 30x80 см, фаска 4-х сторонняя, без фаски, толщина 9 мм, влагостойкий</p>
 										</div>
 
-										<a href="#" class="btn btn--block btn--sm hidden-iphone">Показать еще 12 расцветок</a>
+										<a href="#" class="btn btn--block btn--sm hidden-sm">Показать еще 12 расцветок</a>
 									</div>
 								</div>
 								<div class="collection-wrap__item">
 									<div class="collection-wrap__content">
+										
 										<div class="products">
 											<div class="row no-gutters">
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2586,22 +2536,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2634,22 +2586,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2682,22 +2636,24 @@
 																
 															</div>
 															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-xl-3 col-md-4 col-6 products__item">
+												<div class="col-xxl-3 col-xl-4 col-6 products__item">
 													<div class="product-inner">
 														<div class="product-inner__top">
 															
@@ -2720,7 +2676,7 @@
 																<span class="star"><span class="icon-pointed-star"></span></span>
 																<span class="star-count">25</span>
 															</div>
-															<div class="product-inner__title"><a href="#">Ламинат Tarkett Дуб Пирей 33 Класс 8мм Влагостойкий Фаска 4-хсторонняя</a></div>
+															<div class="product-inner__title"><a href="#">Ламинат Tarkett </a></div>
 															<div class="product-inner__wrapper">
 																<div class="product-inner__price">
 																	<span class="price"><span class="cdef">от</span> 
@@ -2729,24 +2685,26 @@
 																</div>
 																
 															</div>
-															
-															<a href="#" class="btn btn--sm calc-open">В корзину</a>
-															<div class="calc" style="display: none;">
-																<div class="calc-wrap">
-																	<div class="counter counter--sm">
-																		<button type="button" class="counter__btn counter__btn--minus"></button>
-																		<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-																		<button type="button" class="counter__btn counter__btn--plus"></button>
+															<div class="product-inner__footer">
+																<a href="#" class="btn btn--sm calc-open">В корзину</a>
+																<div class="calc" style="display: none;">
+																	<div class="calc-wrap">
+																		<div class="counter counter--sm">
+																			<button type="button" class="counter__btn counter__btn--minus"></button>
+																			<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+																			<button type="button" class="counter__btn counter__btn--plus"></button>
+																		</div>
+																		<a href="#" class="btn btn--sm calc-close">ОК</a>
 																	</div>
-																	<a href="#" class="btn btn--sm calc-close">ОК</a>
+																	<p>4 упак. на 8 052 <span class="rub">a</span></p>
 																</div>
-																<p>4 упак. на 8 052 <span class="rub">a</span></p>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="material-list">
 											<div class="material-list__item"><img src="img/material.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material2.jpg" alt=""></div>
@@ -2763,7 +2721,7 @@
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 											<div class="material-list__item"><img src="img/material6.jpg" alt=""></div>
 										</div>
-										<a href="#" class="btn btn--purpule btn--block btn--sm visible-iphone mt20">Перейти в коллекцию</a>
+										<a href="#" class="btn btn--purpule btn--block btn--sm visible-sm mt20">Перейти в коллекцию</a>
 									</div>
 									<div class="collection-wrap__sidebar">
 										<div class="collection-info collection-info--gray">
@@ -2782,7 +2740,7 @@
 											<p><strong>Характеристики ламината Tarkett в коллекции <a href="#">Kalifornia:</a></strong> 33 класс, толщина 9 мм, влагостойкий, 30x80 см, фаска 4-х сторонняя, без фаски, толщина 9 мм, влагостойкий</p>
 										</div>
 
-										<a href="#" class="btn btn--block btn--sm hidden-iphone">Показать еще 12 расцветок</a>
+										<a href="#" class="btn btn--block btn--sm hidden-sm">Показать еще 12 расцветок</a>
 									</div>
 								</div>
 							</div>
@@ -2799,11 +2757,11 @@
 					<div class="tab-cont is-hidden" id="tabs_3">
 						<div class="b-box b-box--lg">
 							<div class="row mb20 align-items-end">
-								<div class="col-lg-8">
+								<div class="col-md-8 mb20-sm">
 									<h2 class="mb10">Отзывы о ламинате Tarkett (H2)</h2>
 									<p class="mb0">Видео-отзывы о ламинате производства Tаrkett.</p>
 								</div>
-								<div class="col-lg-4 text-lg-right">
+								<div class="col-md-4 text-md-right">
 									<a href="#" class="btn btn-200">Добавить отзыв</a>
 								</div>
 							</div>
@@ -2862,6 +2820,7 @@
 						</div>
 					</div>
 					<div class="tab-cont is-hidden" id="tabs_4">
+						
 						<div class="products">
 							<div class="row no-gutters">
 								<div class="col-xl-5-column col-md-4 col-6 products__item">
@@ -2896,18 +2855,19 @@
 												</div>
 												
 											</div>
-											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -2945,17 +2905,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -2993,17 +2955,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3041,17 +3005,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3089,17 +3055,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3137,17 +3105,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3185,17 +3155,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3233,17 +3205,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3281,17 +3255,19 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
@@ -3329,110 +3305,92 @@
 												
 											</div>
 											
-											<a href="#" class="btn btn--sm calc-open">В корзину</a>
-											<div class="calc" style="display: none;">
-												<div class="calc-wrap">
-													<div class="counter counter--sm">
-														<button type="button" class="counter__btn counter__btn--minus"></button>
-														<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
-														<button type="button" class="counter__btn counter__btn--plus"></button>
+											<div class="product-inner__footer">
+												<a href="#" class="btn btn--sm calc-open">В корзину</a>
+												<div class="calc" style="display: none;">
+													<div class="calc-wrap">
+														<div class="counter counter--sm">
+															<button type="button" class="counter__btn counter__btn--minus"></button>
+															<span class="counter__input"><strong>8.658</strong> <span>М<sup>2</sup></span></span>
+															<button type="button" class="counter__btn counter__btn--plus"></button>
+														</div>
+														<a href="#" class="btn btn--sm calc-close">ОК</a>
 													</div>
-													<a href="#" class="btn btn--sm calc-close">ОК</a>
+													<p>4 упак. на 8 052 <span class="rub">a</span></p>
 												</div>
-												<p>4 упак. на 8 052 <span class="rub">a</span></p>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</div>
-					
-				
 			</div>
-			<!-- <div class="mark-section">
-				<div class="container">
-					<div class="mark-block">
-						<a href="#" class="mark-block__item"><img src="img/quick_step.png" alt=""></a>
-						<a href="#" class="mark-block__item"><img src="img/kronotex.png" alt=""></a>
-						<a href="#" class="mark-block__item"><img src="img/classen.png" alt=""></a>
-						<a href="#" class="mark-block__item"><img src="img/egger.png" alt=""></a>
-						<a href="#" class="mark-block__link">показать все</a>
-					</div>
-				</div>
-			</div> -->
-			<div class="section ">
-			
-				
 
-				<div class="b-box b-box--lg">
-					<div class="mb40">
-						<h2>Как выбрать и купить ламинат Tarkett (H2)</h2>
-						<p>Ламинат (от лат. lamina = слой) – это прочное многослойное напольное покрытие, состоящее из прессованного древесного волокна, пропитанных смолой слоев бумаги, и верхнего износостойкого покрытия. Ламинат поставляется в виде отдельных прямоугольных досок, которые при укладке на пол соединяются замками.</p>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="mb40">
-								<h3>Tarkett (H3)</h3>
-								<p><span class="font-500">Страна</span>: Германия <br>
-								<span class="font-500">Официальный сайт:</span> www.tarkett.ru <br>
-								<span class="font-500">Адрес:</span> Москва, ул. Таганская, д.6</p>
-							</div>
-						</div>
-						<div class="col-md-7">
-							<h3>Рейтинг по отзывам (H3)</h3>
-							<div class="p-rating p-rating--xl">
-								<span class="star is-active"><span class="icon-pointed-star"></span></span>
-								<span class="star is-active"><span class="icon-pointed-star"></span></span>
-								<span class="star is-active"><span class="icon-pointed-star"></span></span>
-								<span class="star"><span class="icon-pointed-star05"><span class="path1"></span><span class="path2"></span></span></span>
-								<span class="star "><span class="icon-pointed-star"></span></span>
-								
-							</div>
-							<p>3.5 из 5, на основе 128 отзывов otzovik.com</p>
-						</div>
-					</div>
-				</div>
-				<div class="b-box">
-					<h3>Популярные производители ламината (H3)</h3>
-					<div class="row">
-						<div class="col-lg-3 col-md-4">
-							<ul class="p-nav">
-								<li><a href="#">Ламинат Quick Step</a></li>
-								<li><a href="#">Ламинат Egger</a></li>
-								<li><a href="#">Ламинат Kronotex</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-3 col-md-4">
-							<ul class="p-nav">
-								<li><a href="#">Ламинат Classen</a></li>
-								<li><a href="#">Ламинат Tarkett</a></li>
-								<li><a href="#">Ламинат Kronospan</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-3 col-md-4">
-							<ul class="p-nav">
-								<li><a href="#">Ламинат Haro</a></li>
-								<li><a href="#">Ламинат Balterio</a></li>
-								<li><a href="#">Ламинат Kronostar</a></li>
-								<li><a href="#"></a></li>
-							</ul>
-						</div>
-						<div class="col-lg-3 col-md-4">
-							<ul class="p-nav">
-								<li><a href="#">Ламинат Quick Step</a></li>
-								<li><a href="#">Ламинат Egger</a></li>
-								<li><a href="#">Ламинат Kronotex</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+			<div class="b-box b-box--lg margin">
 				
-					
-				
+				<h2>Как выбрать и купить ламинат Tarkett (H2)</h2>
+				<p>Ламинат (от лат. lamina = слой) – это прочное многослойное напольное покрытие, состоящее из прессованного древесного волокна, пропитанных смолой слоев бумаги, и верхнего износостойкого покрытия. Ламинат поставляется в виде отдельных прямоугольных досок, которые при укладке на пол соединяются замками.</p>
 			</div>
-		
+			<div class="b-box b-box--lg">
+				<div class="row">
+					<div class="col-md-5 margin mb20-sm">
+						
+						<h3>Tarkett (H3)</h3>
+						<p><span class="font-500">Страна</span>: Германия <br>
+						<span class="font-500">Официальный сайт:</span> www.tarkett.ru <br>
+						<span class="font-500">Адрес:</span> Москва, ул. Таганская, д.6</p>
+					</div>
+					<div class="col-md-7 margin ">
+						<h3>Рейтинг по отзывам (H3)</h3>
+						<div class="p-rating p-rating--xl">
+							<span class="star is-active"><span class="icon-pointed-star"></span></span>
+							<span class="star is-active"><span class="icon-pointed-star"></span></span>
+							<span class="star is-active"><span class="icon-pointed-star"></span></span>
+							<span class="star"><span class="icon-pointed-star05"><span class="path1"></span><span class="path2"></span></span></span>
+							<span class="star "><span class="icon-pointed-star"></span></span>
+						</div>
+						<p>3.5 из 5, на основе 128 отзывов otzovik.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="b-box">
+				<h3>Популярные производители ламината (H3)</h3>
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<ul class="p-nav">
+							<li><a href="#">Ламинат Quick Step</a></li>
+							<li><a href="#">Ламинат Egger</a></li>
+							<li><a href="#">Ламинат Kronotex</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<ul class="p-nav">
+							<li><a href="#">Ламинат Classen</a></li>
+							<li><a href="#">Ламинат Tarkett</a></li>
+							<li><a href="#">Ламинат Kronospan</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<ul class="p-nav">
+							<li><a href="#">Ламинат Haro</a></li>
+							<li><a href="#">Ламинат Balterio</a></li>
+							<li><a href="#">Ламинат Kronostar</a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<ul class="p-nav">
+							<li><a href="#">Ламинат Quick Step</a></li>
+							<li><a href="#">Ламинат Egger</a></li>
+							<li><a href="#">Ламинат Kronotex</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</main>
 	<!-- MAIN EOF   -->

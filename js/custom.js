@@ -144,7 +144,7 @@ $(function(){
 
 	$(".calc-open").on('click',function(){
 		
-		$(this).hide().parents('.product-inner').addClass('is-active').find('.calc').show();
+		$(this).parents('.product-inner').addClass('is-active').find('.calc').show();
 
 	    return false;
 	});
@@ -186,12 +186,7 @@ $(function(){
 	});
 
 
-	//  Open map
-	$(".map-size ").on('click',function(){
-	    $(this).parents('.map-block').find("#map").toggleClass('s-lg');
-	    myMap.container.fitToViewport();
-	    return false;
-	});
+	
 
 	
 	
@@ -544,6 +539,17 @@ function getYaMap(){
             /* Добавляем метки на карту */
             myMap.geoObjects.add(myPlacemark);
 
+            //  Open map
+			// $(".map-size ").on('click',function(){
+			//     $(this).parents('.map-block').find("#map").toggleClass('s-lg');
+			//     myMap.container.getElement()
+			// 	    .style.height = '700px';
+				
+			// 	myMap.container.fitToViewport();
+			//     return false;
+			// });
+
         }
     }
+
 };
