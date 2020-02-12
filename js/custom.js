@@ -431,7 +431,7 @@ $(function(){
         	slidesToShow: 5,
         	slidesToScroll: 1,
         	arrows: true,
-
+        	appendArrows: '.slider-pagination',
         	prevArrow: '<button class="slick-arrow slick-prev"><img src="img/slick-arrow.png" alt="" /></button>',
         	nextArrow: '<button class="slick-arrow slick-next"><img src="img/slick-arrow-next.png" alt="" /></button>',
         	responsive: [
@@ -452,6 +452,7 @@ $(function(){
         			settings: {
         				slidesToShow: 2,
         				variableWidth: true,
+        				arrows: false,
         			}
         		},
         		{
@@ -459,6 +460,7 @@ $(function(){
         			settings: {
         				slidesToShow: 1,
         				variableWidth: true,
+        				arrows: false,
         			}
         		}
         	]
