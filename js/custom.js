@@ -411,13 +411,13 @@ $(function(){
         			}
         		},
         		{
-        			breakpoint: 991,
+        			breakpoint: 992,
         			settings: {
         				slidesToShow: 4,
         			}
         		},
         		{
-        			breakpoint: 767,
+        			breakpoint: 768,
         			settings: {
         				vertical: false,
         			}
@@ -442,13 +442,13 @@ $(function(){
         			}
         		},
         		{
-        			breakpoint: 991,
+        			breakpoint: 992,
         			settings: {
         				slidesToShow: 3,
         			}
         		},
         		{
-        			breakpoint: 767,
+        			breakpoint: 768,
         			settings: {
         				slidesToShow: 2,
         				variableWidth: true,
@@ -456,7 +456,7 @@ $(function(){
         			}
         		},
         		{
-        			breakpoint: 574,
+        			breakpoint: 575,
         			settings: {
         				slidesToShow: 1,
         				variableWidth: true,

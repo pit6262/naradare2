@@ -4792,12 +4792,11 @@ html.overflow-hidden body {
 
 .popup-close {
   position: absolute;
-  right: -6.5rem;
-  top: -3rem;
+  right: -4.6rem;
+  top: 0;
   width: 4.6rem;
   height: 4.6rem;
-  background-color: #222222;
-  border-radius: 50%;
+  background-color: rgba(34, 34, 34, 0.8);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4823,7 +4822,7 @@ html.overflow-hidden body {
   @media screen and (max-width: 1200px) {
     .popup-close {
       right: 0;
-      top: -5.5rem; } }
+      top: -4.6rem; } }
 
 .popup-card .popup-container {
   max-width: 94rem;
@@ -4950,7 +4949,12 @@ html.overflow-hidden body {
     padding: 2rem; }
   .popup-card-slider-nav {
     height: auto;
-    padding: 1.5rem; } }
+    padding: 1.5rem; }
+  .popup-card .card-info__top, .popup-card .card-info {
+    margin-left: -2rem;
+    padding-left: 2rem; }
+  .popup-card .card-info {
+    max-height: none; } }
 
 /* 6. FOOTER */
 /* ================================================ */
