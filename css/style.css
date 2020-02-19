@@ -1688,8 +1688,8 @@ sup {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 2.2rem;
-    margin-bottom: 1rem; }
+    margin-top: 3.4rem;
+    margin-bottom: 1.5rem; }
     .card__counter .counter {
       margin-right: 3rem; }
     .card__counter p {
@@ -1711,9 +1711,10 @@ sup {
     margin-bottom: 1rem; }
     .card__buttons > .btn {
       margin-right: 2.5rem;
-      min-width: 22rem; }
+      min-width: 22rem;
+      margin-bottom: 2rem; }
   .card__nav-button {
-    margin: 2rem 0; }
+    margin: 0 0 2rem 0; }
     .card__nav-button .btn {
       width: 4rem;
       padding-left: .2rem;
@@ -1739,7 +1740,7 @@ sup {
     margin-top: -.1rem;
     margin-left: -.1rem; }
   .service-button__link {
-    height: 6rem;
+    height: 5rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1762,8 +1763,10 @@ sup {
       -ms-flex: none;
       flex: none;
       margin-right: 1.5rem;
-      font-size: 3rem;
+      font-size: 2.6rem;
       color: #222222; }
+      .service-button__link .icon.icon-unloading {
+        font-size: 2.2rem; }
     .service-button__link:hover {
       background-color: #ebedf3;
       color: #222222;
@@ -2320,16 +2323,13 @@ sup {
 
 .description {
   margin-bottom: .7rem;
-  line-height: 1.4; }
+  line-height: 1.6; }
   .description > span {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 400; }
     .description > span a {
       color: #222222; }
-  .description.size-lg > span {
-    font-size: 1.6rem;
-    margin-bottom: .2rem; }
 
 .fast-view {
   position: absolute;
@@ -4838,9 +4838,6 @@ html.overflow-hidden body {
 .popup-card__info {
   padding: 1rem 1.5rem 1rem 0;
   width: 100%;
-  overflow: hidden;
-  max-height: 61.5rem;
-  overflow-y: auto;
   position: relative; }
 
 .popup-card__slider {
@@ -4853,18 +4850,30 @@ html.overflow-hidden body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background: #f5f7fa;
   width: 100%; }
 
-.popup-card .card__nav-button {
-  margin-top: .5rem;
-  margin-bottom: .5rem; }
+.popup-card .card__buttons {
+  margin-bottom: 0; }
 
 .popup-card .informer {
   margin: 2rem 0; }
 
 .popup-card .description a {
   color: #0053b9; }
+
+.popup-card .card-info {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 45rem;
+  margin-right: -1.5rem;
+  margin-left: -3rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem; }
+  .popup-card .card-info__top {
+    background: #f5f7fa;
+    margin: 0 -1.5rem 0 -3rem;
+    padding: .8rem 1.5rem .8rem 3rem; }
 
 .popup-card-slider {
   width: 100%; }
@@ -4930,8 +4939,8 @@ html.overflow-hidden body {
 
 .pc-fixed {
   position: absolute;
-  top: .5rem;
-  right: .5rem; }
+  top: .3rem;
+  right: .3rem; }
 
 @media screen and (max-width: 991px) {
   .popup-card .popup-container {
