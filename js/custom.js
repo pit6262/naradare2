@@ -466,14 +466,15 @@ $(function(){
         	]
         });
     };
+     
      if($('.popup-card-slider').length){
         $('.popup-card-slider').slick({
         	slidesToShow: 1,
         	arrows: true,
         	dots: true,
 
-        	prevArrow: '<button class="slick-arr slick-prev"></button>',
-        	nextArrow: '<button class="slick-arr slick-next"></button>',
+        	prevArrow: '<button class="slick-arrow slick-prev"><img src="img/slick-arrow.png" alt="" /></button>',
+        	nextArrow: '<button class="slick-arrow slick-next"><img src="img/slick-arrow-next.png" alt="" /></button>',
         	appendArrows: '.popup-card-slider-nav',
         	appendDots: '.popup-card-slider-nav',
         });
