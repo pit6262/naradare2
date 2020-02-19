@@ -34,9 +34,9 @@
     }
 }
 
-@media (min-width: 1470px) {
+@media (min-width: 1440px) {
     .container {
-        max-width: 1440px;
+        max-width: 1380px;
     }
 }
 
@@ -1101,7 +1101,7 @@
         margin-left: 91.666667%;
     }
 }
-@media (min-width: 1470px) {
+@media (min-width: 1440px) {
     .col-xxl {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;

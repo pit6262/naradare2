@@ -5114,7 +5114,7 @@ html.overflow-hidden body {
 
 /* 8. MEDIA */
 /* ================================================ */
-@media screen and (max-width: 1469px) {
+@media screen and (max-width: 1439px) {
   .cl-wrap {
     max-width: 91.7rem; } }
 
