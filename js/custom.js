@@ -142,17 +142,11 @@ $(function(){
 	    return false;
 	});
 
-	$(".calc-open").on('click',function(){
-		
-		$(this).parents('.product-inner').addClass('is-active').find('.calc').show();
-
-	    return false;
-	});
 
 	$(".calc-close").on('click',function(){
 		
-		$(this).parents('.product-inner').removeClass('is-active').find('.calc-open').show();
-		$(this).parents('.product-inner').find('.calc').hide();
+		$(this).parents('.calc').hide();
+		$('.calc-btn').show();
 
 	    return false;
 	});
@@ -304,6 +298,7 @@ $(function(){
 	function adaptive_header(w,h) {
 			var headerMenu=$('.header');
 			var headerWrap=$('.navbar');
+			var headerNnavbar=$('.n-navbar');
 
 		if(w<991){
 			if(!headerWrap.hasClass('done')){
@@ -311,7 +306,7 @@ $(function(){
 			}
 		}else{
 			if(headerWrap.hasClass('done')){
-				headerWrap.removeClass('done').appendTo(headerMenu);
+				headerWrap.removeClass('done').insertBefore(headerNnavbar);
 			}
 		}
 	}
