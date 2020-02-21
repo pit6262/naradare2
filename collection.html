@@ -18,66 +18,6 @@
 
 	<!-- BEGIN HEADER -->
 	<header class="header">
-		<div class="header__top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-4 d-flex align-items-center">
-						<ul class="header-nav">
-							<li class="header-nav__item dropdown">
-								<a href="#" class="header-nav__link dropdown-link">Москва</a>
-								<ul class="dropdown-menu">
-									<li class="is-active"><a href="#">Москва</a></li>
-									<li><a href="#">Москва</a></li>
-									<li><a href="#">Москва</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-6 col-8 header__top-right">
-						<ul class="header-nav hidden-sm">
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Доставка</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Возврат</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Добавить магазин</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Войти</a>
-							</li>
-						</ul>
-						<ul class="header-nav visible-sm">
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link open-search"><span class="icon icon-search"></span> </a>
-							</li>
-							<li class="header-nav__item ">
-								<a href="#" class="header-nav__link">
-									<span class="icon icon-user1"></span>
-									<span class="header-nav__text">Вход</span>
-								</a>
-							</li>
-							<li class="header-nav__item ">
-								<a href="#" class="header-nav__link is-badge">
-									<span class="icon icon-heart"></span>
-									<span class="header-nav__text">Избранное</span>
-								</a>
-							</li>
-							<li class="header-nav__item ">
-								<a href="#" class="header-nav__link is-badge">
-									<span class="icon icon-shuffle"></span>
-									<span class="header-nav__text">Cравнение</span>
-								</a>
-							</li>
-	
-						</ul>
-					</div>
-				</div>
-	
-			</div>
-		</div>
-	
 		<div class="header__bottom">
 			<div class="container">
 				<div class="header__bottom-wrap">
@@ -92,6 +32,15 @@
 						<span class="hidden-md">Каталог</span>
 					</a>
 	
+					<div class="city dropdown">
+						<a href="#" class="city__link dropdown-link"><span>Москва</span></a>
+						<ul class="dropdown-menu">
+							<li class="is-active"><a href="#">Москва</a></li>
+							<li><a href="#">Санкт-Петербург</a></li>
+							<li><a href="#">Минск</a></li>
+						</ul>
+					</div>
+	
 					<div class="search ">
 						<form action="#" class="search-form">
 							<input type="text" placeholder="Поиск..." class="search-form__input">
@@ -100,19 +49,24 @@
 					</div>
 					
 					<div class="basket">
-						
-						<a href="#" class="basket__link is-badge hidden-sm">
+						<a href="#" class="basket__link hidden-sm">
+							<span class="icon icon-login"></span>
+							<span class="basket__link-text">Войти</span>
+						</a>
+						<a href="#" class="basket__link hidden-sm">
 							<span class="icon icon-heart"></span>
+							<span class="is-badge">2</span>
 						</a>
 					
-						<a href="#" class="basket__link is-badge hidden-sm">
+						<a href="#" class="basket__link hidden-sm">
 							<span class="icon icon-shuffle"></span>
+							<span class="is-badge">4</span>
 						</a>
 						
 						<a href="#" class="basket__wrapper">
+							<span class="badge">22</span>
 							<span class="basket__icon">
 								<span class="icon icon-shopping-cart"></span>
-								<span class="badge">22</span>
 							</span>
 							<span class="basket__price">0.00 <span class="rub">a</span></span>
 						</a>
@@ -1411,7 +1365,7 @@
 	
 				</div>
 				<div class="calc-btn" style="display: none;">
-					<a href="#" class="btn btn--sm btn--block ">Перейти в корзину</a>
+					<a href="#" class="btn btn--sm btn--block ">Перейти в кор��ину</a>
 				</div>
 				
 			</div>

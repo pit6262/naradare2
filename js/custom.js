@@ -95,7 +95,7 @@ $(function(){
 		var thisText = $(this).text();
 		$(".dropdown-menu li").removeClass('is-active')
 		$(this).parents('li').addClass('is-active');
-	    $(this).parents('.dropdown').find('.dropdown-link').text(thisText);
+	    $(this).parents('.dropdown').find('.dropdown-link span').text(thisText);
 	    $(this).parents('.dropdown-menu').removeClass('is-open');
 	    return false;
 	});
@@ -402,18 +402,27 @@ $(function(){
         		{
         			breakpoint: 1360,
         			settings: {
-        				slidesToShow: 3,
+        				
         			}
         		},
         		{
-        			breakpoint: 992,
+        			breakpoint: 1259,
         			settings: {
-        				slidesToShow: 4,
+        				
+        				vertical: false,
+        			}
+        		},
+        		{
+        			breakpoint: 1022,
+        			settings: {
+        				
+        				vertical: true,
         			}
         		},
         		{
         			breakpoint: 768,
         			settings: {
+        				
         				vertical: false,
         			}
         		}
