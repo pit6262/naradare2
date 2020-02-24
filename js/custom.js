@@ -93,38 +93,40 @@ $(function(){
 
 	$(".dropdown-menu a").on('click',function(){
 		var thisText = $(this).text();
-		$(".dropdown-menu li").removeClass('is-active')
+		$(".dropdown-menu li").removeClass('is-active');
 		$(this).parents('li').addClass('is-active');
 	    $(this).parents('.dropdown').find('.dropdown-link span').text(thisText);
 	    $(this).parents('.dropdown-menu').removeClass('is-open');
 	    return false;
 	});
 
-	$(".select__button").on('click',function(){
-		$(this).parents('.select').find('.styler').trigger('refresh');
-		$('.select').not($(this).parents('.select')).removeClass('is-open');
-		$(this).parents('.select').toggleClass('is-open');
-		
+	//  Открыть фильтр карты
+	$(".select").on('click',function(){
+		var thisData = $(this).data('s-selcet')
+		$('[data-s-dropdown= '+ thisData + ']').show();
+		$('.map-filter').show();
+		$('.select-dropdown').not('[data-s-dropdown= '+ thisData + ']').hide();
+	    return false;
+	});
+
+	//  Закрыть фильтр карты
+	$(".map-filter__close").on('click',function(){
+		var thisData = $(this).data('s-selcet')
+		$('.map-filter').hide();
+		$('.select-dropdown').hide();
 	    return false;
 	});
 	
-	$(document).click( function(event){
-      if( $(event.target).closest(".select").length ) 
-        return;
-      $('.select').removeClass('is-open');
-     
-      event.stopPropagation();
-    });
 
-	$(document).on('change', function(e) {
-		var $ul = $(e.target).closest('.select-check');
-		$ul.parents('.select').toggleClass('is-selected', !! $ul.find(':checked').length);
-	});
+	// $(document).on('change', function(e) {
+	// 	var $ul = $(e.target).closest('.select-check');
+	// 	$ul.parents('.select').toggleClass('is-selected', !! $ul.find(':checked').length);
+	// });
 
-	$(document).on('change', function(e) {
-		var $ul = $(e.target).closest('.select-list');
-		$ul.parents('.select').toggleClass('is-selected', !! $ul.find(':selected').length);
-	});
+	// $(document).on('change', function(e) {
+	// 	var $ul = $(e.target).closest('.select-list');
+	// 	$ul.parents('.select').toggleClass('is-selected', !! $ul.find(':selected').length);
+	// });
     
 	$(".fb-toggle").on('click',function(){
 		
@@ -180,10 +182,6 @@ $(function(){
 	});
 
 
-	
-
-	
-	
 	function openAllNavFilter() {
 		$('.filter-link').on('click', function(){
 			namebl = $(this).html();
@@ -251,6 +249,27 @@ $(function(){
 
 	}
 	openNavDropdown();
+
+	function openMapFilterDropdown() {
+		$('.sl-dropdown').on('click', function(){
+
+			$(this).parents('.select-dropdown__body').find('.select-list__item > ul').not($(this).next()).slideUp(200)
+			$(this).parents('.select-dropdown__body').find('.sl-dropdown').not($(this)).removeClass('is-open')
+			$(this).toggleClass('is-open').next().slideToggle(200)
+			
+			return false;
+		});
+		$('.sl-sub-dropdown').on('click', function(){
+			
+			$(this).parents('.select-dropdown__body').find('.select-sub-list__item > ul').not($(this).next()).slideUp(200)
+			$(this).parents('.select-dropdown__body').find('.sl-sub-dropdown').not($(this)).removeClass('is-open')
+			$(this).toggleClass('is-open').next().slideToggle(200)
+			
+			return false;
+		});
+
+	}
+	openMapFilterDropdown();
 	
 	$('.go-map').bind('click.smoothscroll',function () {
 		
