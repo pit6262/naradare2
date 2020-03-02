@@ -199,6 +199,24 @@ $(function(){
 	}
 	openAllCategoryTags();
 
+	function openToggleAll() {
+		$('.toggle-link').on('click', function(){
+			namebl = $(this).html();
+			dataNameBl = $(this).data('title');
+			if(namebl == dataNameBl){
+				$(this).addClass('is-active').html('Cвернуть');
+				$(this).parents('.toggle-contanier').find('.i-hidden').removeClass('i-hidden').addClass('i-visible')
+			}else{
+				$(this).removeClass('is-active').html(dataNameBl);
+				$(this).parents('.toggle-contanier').find('.i-visible').removeClass('i-visible').addClass('i-hidden')
+			}
+			
+			return false;
+		});
+
+	}
+	openToggleAll();
+
 
 	function openAllNavFilter() {
 		$('.filter-link').on('click', function(){
@@ -600,6 +618,17 @@ $(function(){
         	appendDots: '.popup-card-slider-nav',
         });
     };
+
+    if($('.banner-slider').length){
+        $('.banner-slider').slick({
+        	slidesToShow: 1,
+        	arrows: false,
+        	dots: true,
+        	fade: true,
+        });
+    };
+
+
 
     
 
